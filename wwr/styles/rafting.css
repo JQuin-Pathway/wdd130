@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #356baa;
-    --secondary-color: #6b523b;
-    --accent1-color: #a1670f;
-    --accent2-color: #143c56;
+    --primary-color: #1a4b84;
+    --secondary-color: #f8f9fa;
+    --accent1-color: #d97706;
+    --accent2-color: #0f172a;
     --heading-font: "Times New Roman", serif;
     --body-font: Arial, sans-serif;
 }
@@ -73,15 +73,20 @@ article {
 
 .hero article {
     position: absolute;
-    padding-left: 680px;
-    opacity: 75%;
-    object-fit: fill;
+    top: 85px;
+    left: 300px;
+    width: 500px;
+    opacity: 85%;
     background-color: var(--accent2-color);
+    padding: 15px;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    display: inline;
+    height: auto;
+    margin-left: 10px;
 }
 
 footer img {
