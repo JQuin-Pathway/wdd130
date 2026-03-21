@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #080C16;
-    --secondary-color: #f8f9fa;
-    --accent1-color: #7d5b00;
-    --accent2-color: #1e40af;
+    --primary-color: #052861;
+    --secondary-color: #f3f3f3;
+    --accent1-color: #000000;
+    --accent2-color: #8AA2E0;
     --heading-font: "Times New Roman", serif;
     --body-font: Arial, sans-serif;
 }
