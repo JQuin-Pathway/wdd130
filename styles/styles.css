@@ -56,9 +56,9 @@ aside {
 }
 
 aside h2 {
-    position: absolute;
-    top: 15px;
-    left: 115px;
+    position: relative;
+    top: 30px;
+    left: 0px;
 }
 
 aside img {
@@ -101,7 +101,7 @@ aside {
 .box {
     margin: 1rem;
     border: var(--border);
-    padding: 2rem;
+    padding: 1rem;
     background-color: #ddd;
     color: #000;
 }
