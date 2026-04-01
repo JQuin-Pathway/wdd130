@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+</head>
+
+<main>
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <label for="useremail">Email:</label>
+        <input type="text" id="useremail" name="useremail" required>
+        <label for="browser">What is you favorite browser?</label>
+        <select name="browser" id="browser">
+            <option value="Chrome">Chrome</option>
+            <option value="Opera GX">Opera GX</option>
+            <option value="Safari">Safari</option>
+        </select>
+        <label for="pet">Do you have a household pet?</label>
+        <input type="checkbox" id="pet" name="pet">
+        <label for="feedback">List the places you've lived:</label>
+        <textarea id="feedback" name="feedback" rows="5"
+          placeholder="Queen Creek AZ, Fort Lauderdale FL, New York City NY"></textarea>
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<footer>
+</footer>
+
+</html>
