@@ -205,7 +205,7 @@ footer img {
 .map iframe {
     width: 400px;
     height: 500px;
-    border: 1px solid var(--accent1-color);
+    border: none;
 }
 
 .form-group label {
@@ -270,8 +270,4 @@ footer img {
 .team-grid figcaption {
     margin-top: 10px;
     font-weight: bold;
-}
-
-iframe {
-    border: none;
 }
