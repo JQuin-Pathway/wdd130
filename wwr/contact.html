@@ -32,7 +32,7 @@
         </div>
         <section class="contact-grid">
             <div class="map-placeholder">
-                <img src="images/map-placeholder.jpg" alt="Map of Kolob, California">
+                <img src="" alt="">
             </div>
             <form action="#" method="post" class="contact-form">
                 <div class="form-group">
@@ -45,11 +45,13 @@
                 </div>
                 <fieldset>
                     <legend>Purpose of Message:</legend>
-                    <label><input type="radio" name="purpose" value="general"> General
+                    <label><input type="radio" id="purpose" name="purpose" value="general"> General
                         Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation
+                    <label><input type="radio" id="purpose" name="purpose" value="reservation">
+                        Reservation
                         Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website
+                    <label><input type="radio" id="purpose" name="purpose" value="suggestion">
+                        Website
                         Suggestion</label>
                 </fieldset>
                 <div class="form-group">
@@ -57,7 +59,8 @@
                     <textarea id="message" name="user_message" rows="4"></textarea>
                 </div>
                 <label class="newsletter">
-                    <input type="checkbox" name="subscribe"> Please sign me up for the monthly
+                    <input type="checkbox" id="checkbox" name="subscribe"> Please sign me up for the
+                    monthly
                     newsletter
                 </label>
                 <button type="submit">Get in Touch!</button>
