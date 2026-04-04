@@ -176,3 +176,98 @@ footer img {
     width: 60px;
     height: auto;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    align-items: start;
+}
+
+.contact-head {
+    text-align: center;
+}
+
+.map-placeholder img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--accent1-color);
+}
+
+.form-group label {
+    flex: 0 0 30px;
+    text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+    flex: 1;
+}
+
+.contact-form input,
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-family: var(--body-font);
+}
+
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-form fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.team-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-grid figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
