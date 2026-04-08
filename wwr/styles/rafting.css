@@ -16,8 +16,8 @@
 header {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
     padding: 20px;
     text-decoration: none;
@@ -30,6 +30,7 @@ header img {
 }
 
 nav ul {
+    grid-column: 3;
     display: flex;
     margin: 0px;
     padding: 0px;
