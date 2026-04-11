@@ -298,3 +298,26 @@ tr {
 thead {
     background-color: var(--accent2-color);
 }
+
+.trip-img {
+    width: auto;
+    height: 150px;
+    padding-bottom: 250px;
+}
+
+.contact {
+    text-align: center;
+    background-color: var(--accent2-color);
+    padding: 40px;
+    margin: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
