@@ -223,7 +223,7 @@ footer img {
 .contact-form input[type="email"],
 .contact-form textarea {
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     font-family: var(--body-font);
 }
 
@@ -244,7 +244,7 @@ footer img {
 
 .contact-form button {
     background-color: var(--secondary-color);
-    color: white;
+    color: #fff;
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -271,4 +271,30 @@ footer img {
 .team-grid figcaption {
     margin-top: 10px;
     font-weight: bold;
+}
+
+table {
+    border: 1px solid var(--accent1-color);
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+.trip {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid #fff;
+}
+
+thead {
+    background-color: var(--accent2-color);
 }
